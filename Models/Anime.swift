@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 
 struct Contact: Identifiable{
-    var id: UUID
+    var id: Int
     var name: String
     var genre: String
     var producer: String
