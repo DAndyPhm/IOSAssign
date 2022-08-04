@@ -11,8 +11,14 @@ struct WelcomeView: View {
     @Binding var active: Bool
     var body: some View {
         ZStack{
-        
+                Color.gray
+                    .opacity(0.5) // Setting the color opacity to 0.5
+                Text("Welcome to my list of favourite anime")
+                    .foregroundColor(.black)
+                    .font(.largeTitle)
+                    .bold()
         }
+        
     }
 }
 
